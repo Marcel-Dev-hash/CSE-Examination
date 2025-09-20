@@ -11,18 +11,33 @@ Modify this README.md file to explain your code.
 Push the activity back to your forked remote repo.
 
 
-John Marcel Aleman Examination:
+Inocente, Ashley John Examination
 
-This program simulates a basic GPS tracker where the player starts at position (0, 0) and can move North, South, East, or West by entering commands. The program accepts various forms of input for directions (e.g., n, N, north, etc.) and handles invalid inputs gracefully.
+Explanation
+This program simulates a simple GPS tracker where the player starts at coordinates (0, 0) and can move in four directions: North, South, East, or West by entering corresponding commands. It recognizes multiple forms of input for directions (such as "n", "N", "north", etc.) and responds to invalid commands appropriately.
 
 How it works:
 
-The player starts at (0, 0).
+The player begins at the starting point (0, 0).
+
 Each valid command moves the player in the specified direction:
-North (N): y increases by 1
-South (S): y decreases by 1
-East (E): x increases by 1
-West (W): x decreases by 1
-After each move, the current position is displayed.
-The user can enter STOP (case-insensitive) to end the session.
-When the session ends, the program shows the final position and tells whether the user returned to the origin (0, 0).
+
+North (N): Increases the y-coordinate by 1
+
+South (S): Decreases the y-coordinate by 1
+
+East (E): Increases the x-coordinate by 1
+
+West (W): Decreases the x-coordinate by 1
+
+After each move, the player's current position is displayed.
+
+The user can type STOP (case-insensitive) to end the session.
+
+Upon session completion, the program shows the final position and checks if the player has returned to the origin (0, 0).
+
+Input Handling:
+
+The program accepts both uppercase and lowercase commands, as well as full words (e.g., "north").
+
+Invalid inputs will prompt the user to enter a valid direction.
